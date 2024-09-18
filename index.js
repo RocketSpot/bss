@@ -22026,18 +22026,19 @@ function BeeSwarmSimulator(DATA){
         }
         
         out.currentGear={
-            
-            tool:'shovel',
-            boots:'none',
-            belt:'none',
-            backpack:'pouch',
-            mask:'none',
-            leftGuard:'none',
-            rightGuard:'none',
-            glider:'none',
-            sprinkler:'none',
-            beequips:[]
-        }
+                    
+                    tool:'gummyBaller',
+                    boots:'gummyBoots',
+                    belt:'petalBelt',
+                    backpack:'coconutCanister',
+                    mask:'gummyMask',
+                    leftGuard:'crimsonGuard',
+                    rightGuard:'cobaltGuard',
+                    glider:'glider',
+                    supremeStarAmulet:'*1000 capacityMultiplier,*1000 convertRate,*1000 redPollen,*1000 bluePollen,*1000 whitePollen,*1000 whitePollen,+1 instantBlueConversion,+1 instantWhiteConversion,+1 instantRedConversion,+1 criticalChance,P gummyStarPassive,P starSawPassive',
+                    sprinkler:'superSaturator',
+                    beequips:[],
+                }
         
         out.generateBeequip=function(type){
             
@@ -29882,7 +29883,7 @@ function BeeSwarmSimulator(DATA){
 
     } else {
 
-        items.basicEgg.amount=1
+        items.basicEgg.amount=2
         player.updateInventory()
 
         let tut=['Welcome to Bee Swarm Simulator!',5000,'Click the egg icon on the bar on','the left to open your inventory!',4000,'Click on the Basic Egg to select it!',4000,'Hover your mouse over a hive slot','and click to hatch it!',4000,'Collect pollen in fields with your bee!',4000,'After filling up your bag, stand near','your hive to convert the pollen into honey!',4000,'Use honey to buy more bee eggs and new tools!',5000,'Talk to bears and complete their quests!',3000,'Have fun!'],t=1000
