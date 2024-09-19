@@ -29883,8 +29883,8 @@ function BeeSwarmSimulator(DATA){
 
     } else {
 
-        items.mythicEgg.amount=20
-        items.giftedMythicEgg.amount=20
+        items.mythicEgg.amount=10
+        items.giftedMythicEgg.amount=10
         player.updateInventory()
 
         let tut=['Welcome to Bee Swarm Simulator!',5000,'Click the egg icon on the bar on','the left to open your inventory!',4000,'Click on the Basic Egg to select it!',4000,'Hover your mouse over a hive slot','and click to hatch it!',4000,'Collect pollen in fields with your bee!',4000,'After filling up your bag, stand near','your hive to convert the pollen into honey!',4000,'Use honey to buy more bee eggs and new tools!',5000,'Talk to bears and complete their quests!',3000,'Have fun!'],t=1000
